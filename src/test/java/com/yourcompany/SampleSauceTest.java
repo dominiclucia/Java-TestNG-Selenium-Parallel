@@ -62,7 +62,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
      *
      * @param testMethod
      * @return
-     * @throws JSONException 
+     * @throws JSONException
      */
     @DataProvider(name = "hardCodedBrowsers", parallel = true)
     public static Object[][] sauceBrowserDataProvider(Method testMethod) {
@@ -71,6 +71,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
                 new Object[]{"chrome", "41", "Windows XP"},
                 new Object[]{"safari", "7", "OS X 10.9"},
                 new Object[]{"firefox", "35", "Windows 7"},
+                //for (int v=37;v=51;v++){new Object[]{"chrome","v","OS X 10.10",}}
         };
     }
 
@@ -93,20 +94,20 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
             capabilities.setCapability(CapabilityType.VERSION, version);
         }
         capabilities.setCapability(CapabilityType.PLATFORM, os);
-        
+
         //Sends test name as a desired capability to update the Sauce Labs dash board
         String jobName = methodName + '_' + os + '_' + browser + '_' + version;
         capabilities.setCapability("name", jobName);
-        
+
         //Creates Selenium Driver
         webDriver.set(new RemoteWebDriver(
                 new URL("http://" + username+ ":" + accesskey + "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities));
-        
+
       //Keeps track of the unique Selenium session ID used to identify jobs on Sauce Labs
         String id = ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
         sessionId.set(id);
-        
+
         //For CI plugins
         String message = String.format("SauceOnDemandSessionID=%1$s job-name=%2$s", id, jobName);
         System.out.println(message);
@@ -135,7 +136,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
 
         assertEquals(driver.getTitle(), "I am a page title - Sauce Labs");
     }
-    
+
     @Test(dataProvider = "hardCodedBrowsers")
     public void guineaPigTitle2(String browser, String version, String os, Method method) throws Exception {
         WebDriver driver = createDriver(browser, version, os, method.getName());
@@ -143,7 +144,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
 
         assertEquals(driver.getTitle(), "I am a page title - Sauce Labs");
     }
-  
+
     /**
      * @return the {@link WebDriver} for the current thread
      */
