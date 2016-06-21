@@ -71,10 +71,11 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
                 new Object[]{"chrome", "41", "Windows XP"},
                 new Object[]{"safari", "7", "OS X 10.9"},
                 new Object[]{"firefox", "35", "Windows 7"},
-                //for (int v=37;v=51;v++){new Object[]{"chrome","v","OS X 10.10",}}
+
         };
     }
 
+    //for (int v=37;v=51;v++){new Object[]{"chrome",v,"OS X 10.10"};};
     /**
      * Constructs a new {@link RemoteWebDriver} instance which is configured to use the capabilities defined by the browser,
      * version and os parameters, and which is configured to run against ondemand.saucelabs.com, using
