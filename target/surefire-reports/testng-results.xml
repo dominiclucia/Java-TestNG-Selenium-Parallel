@@ -2,90 +2,12 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="12384" started-at="2016-06-20T18:58:12Z" finished-at="2016-06-20T18:58:25Z">
+  <suite name="Surefire suite" duration-ms="16983" started-at="2016-06-28T19:04:40Z" finished-at="2016-06-28T19:04:57Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="12384" started-at="2016-06-20T18:58:12Z" finished-at="2016-06-20T18:58:25Z">
+    <test name="Surefire test" duration-ms="16983" started-at="2016-06-28T19:04:40Z" finished-at="2016-06-28T19:04:57Z">
       <class name="com.yourcompany.SampleSauceTest">
-        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="9308" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[35]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 7]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle2(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guineaPigTitle2 -->
-        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="5790" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[41]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows XP]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guineaPigTitle -->
-        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="5037" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[41]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows XP]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle2(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guineaPigTitle2 -->
-        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="7559" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:20Z">
+        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="7187" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:47Z">
           <params>
             <param index="0">
               <value>
@@ -111,21 +33,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guineaPigTitle2 -->
-        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="11774" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:24Z">
+        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="5371" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[safari]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[7]]>
+                <![CDATA[41]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[OS X 10.9]]>
+                <![CDATA[Windows XP]]>
               </value>
             </param>
             <param index="3">
@@ -137,47 +59,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guineaPigTitle -->
-        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="12058" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:24Z">
+        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="5376" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[35]]>
+                <![CDATA[41]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Windows 7]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guineaPigTitle -->
-        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="11353" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X 10.9]]>
+                <![CDATA[Windows XP]]>
               </value>
             </param>
             <param index="3">
@@ -189,7 +85,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guineaPigTitle2 -->
-        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="7031" started-at="2016-06-20T13:58:12Z" data-provider="hardCodedBrowsers" finished-at="2016-06-20T13:58:19Z">
+        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="16693" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X 10.9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guineaPigTitle -->
+        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="7382" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:48Z">
           <params>
             <param index="0">
               <value>
@@ -215,35 +137,113 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guineaPigTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="122" started-at="2016-06-20T13:58:18Z" finished-at="2016-06-20T13:58:18Z">
+        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="8984" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle2(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guineaPigTitle2 -->
+        <test-method status="PASS" signature="guineaPigTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle" duration-ms="8845" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guineaPigTitle -->
+        <test-method status="PASS" signature="guineaPigTitle2(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="guineaPigTitle2" duration-ms="13563" started-at="2016-06-28T14:04:40Z" data-provider="hardCodedBrowsers" finished-at="2016-06-28T14:04:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X 10.9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.yourcompany.SampleSauceTest.guineaPigTitle2(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guineaPigTitle2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="239" started-at="2016-06-28T14:04:47Z" finished-at="2016-06-28T14:04:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="231" started-at="2016-06-20T13:58:18Z" finished-at="2016-06-20T13:58:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="241" started-at="2016-06-28T14:04:47Z" finished-at="2016-06-28T14:04:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="163" started-at="2016-06-20T13:58:19Z" finished-at="2016-06-20T13:58:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="174" started-at="2016-06-28T14:04:48Z" finished-at="2016-06-28T14:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="178" started-at="2016-06-20T13:58:20Z" finished-at="2016-06-20T13:58:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="151" started-at="2016-06-28T14:04:48Z" finished-at="2016-06-28T14:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="161" started-at="2016-06-20T13:58:22Z" finished-at="2016-06-20T13:58:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="141" started-at="2016-06-28T14:04:49Z" finished-at="2016-06-28T14:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="171" started-at="2016-06-20T13:58:24Z" finished-at="2016-06-20T13:58:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="141" started-at="2016-06-28T14:04:50Z" finished-at="2016-06-28T14:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="167" started-at="2016-06-20T13:58:24Z" finished-at="2016-06-20T13:58:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="168" started-at="2016-06-28T14:04:54Z" finished-at="2016-06-28T14:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="164" started-at="2016-06-20T13:58:24Z" finished-at="2016-06-20T13:58:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourcompany.SampleSauceTest@57829d67]" name="tearDown" is-config="true" duration-ms="153" started-at="2016-06-28T14:04:57Z" finished-at="2016-06-28T14:04:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
